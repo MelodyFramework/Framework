@@ -8,11 +8,11 @@ class Core
 {
     static public $root = '';
 
-    static function init($dev=false)
+    static function init($rootDir, $dev=false)
     {
         session_start();
 
-        self::$root = dirname(dirname(__DIR__));
+        self::$root = $rootDir;
         define('ROOT', self::$root);
         define('DEV_ENV', $dev);
         define('PROD_ENV', !$dev);

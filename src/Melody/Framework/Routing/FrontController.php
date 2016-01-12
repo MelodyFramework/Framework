@@ -183,7 +183,7 @@ class FrontController
         //header('Content-Type: text/plain');
         if(!empty($apps)) $apps[] = ''; // petit trick pour avoir un antislash final
 
-        $class = 'www\\'.join('\\', $apps).'controllers\\'.ucfirst($controller);
+        $class = 'app\\'.join('\\', $apps).'controllers\\'.ucfirst($controller);
         $method = str_replace('-', '', mb_convert_case($method, MB_CASE_TITLE, "UTF-8")).'Action';
 
         if(class_exists($class))
