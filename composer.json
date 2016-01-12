@@ -1,0 +1,14 @@
+{
+    "name": "melody/framework",
+    "description": "Melody component",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Robin Choffardet",
+            "email": "robin@choffardet.fr"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
