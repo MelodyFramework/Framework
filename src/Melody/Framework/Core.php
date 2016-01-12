@@ -2,7 +2,7 @@
 namespace Melody\Framework;
 
 use Melody\Framework\Routing\FrontController;
-use Melody\Framework\Utils\Tools
+use Melody\Framework\Utils\Tools;
 
 class Core
 {
