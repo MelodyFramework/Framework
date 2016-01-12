@@ -1,7 +1,7 @@
 <?php
-namespace Melody\Http;
+namespace Melody\Framework\Http;
 
-use Melody\Config;
+use Melody\Framework\Config;
 
 class Session
 {

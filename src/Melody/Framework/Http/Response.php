@@ -1,5 +1,5 @@
 <?php
-namespace Melody\Http;
+namespace Melody\Framework\Http;
 
 class Response
 {

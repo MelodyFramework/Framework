@@ -1,10 +1,10 @@
 <?php
-namespace Melody\Routing;
+namespace Melody\Framework\Routing;
 
-use Melody\Config;
-use Melody\Http\Request;
-use Melody\Http\Response;
-use Melody\Utils\Tools;
+use Melody\Framework\Config;
+use Melody\Framework\Http\Request;
+use Melody\Framework\Http\Response;
+use Melody\Framework\Utils\Tools;
 
 class FrontController
 {

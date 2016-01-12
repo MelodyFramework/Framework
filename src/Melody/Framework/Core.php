@@ -1,8 +1,9 @@
 <?php
 namespace Melody;
 
-use Melody\Routing\FrontController;
-use Melody\Utils\Tools;
+use Melody\Framework\Routing\FrontController;
+use Melody\Framework\Utils\Tools;
+use Melody\Framework\Config;
 
 class Core
 {

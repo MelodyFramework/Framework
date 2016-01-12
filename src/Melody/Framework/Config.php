@@ -1,8 +1,8 @@
 <?php
-namespace Melody;
+namespace Melody\Framework;
 
-use Melody\Routing\FrontController;
-use Melody\Utils\Tools;
+use Melody\Framework\Routing\FrontController;
+use Melody\Framework\Utils\Tools;
 
 class Config
 {

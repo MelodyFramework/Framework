@@ -1,6 +1,6 @@
 <?php
 
-namespace Melody;
+namespace Melody\Framework;
 
 class Cache
 {

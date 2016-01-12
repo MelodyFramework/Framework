@@ -1,7 +1,7 @@
 <?php
-namespace Melody\Utils;
+namespace Melody\Framework\Utils;
 
-use Melody\Config;
+use Melody\Framework\Config;
 
 class Tools
 {
