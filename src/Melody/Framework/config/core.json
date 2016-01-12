@@ -1,0 +1,21 @@
+{
+  "access":
+  {
+    "role" :
+    {
+      "session_key" : "role",
+      "if_missing" : 0,
+      "default" : 0
+    }
+  },
+  "session":
+  {
+    "error_varname" : "error",
+    "flash_varname" : "flash",
+    "content_varname" : "vars",
+    "attribute_varname" : "attributes",
+    "history_varname" : "referers",
+    "client_lifetime" : 0,
+    "server_lifetime" : 86400
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "www" :
+  {
+    "path": "/",
+    "action": "redirect",
+    "recursive" : true
+  }
+}
