@@ -265,7 +265,7 @@ class Tools
 
     static function pathfor($apps=array(), $filename='', $suffix='')
     {
-        return 	ROOT.DIRECTORY_SEPARATOR.'private'.DIRECTORY_SEPARATOR.'www'.DIRECTORY_SEPARATOR
+        return 	ROOT.DIRECTORY_SEPARATOR.'app'.DIRECTORY_SEPARATOR
         .(empty($apps) ? '' : DIRECTORY_SEPARATOR.'apps'.DIRECTORY_SEPARATOR.((is_array($apps)) ? join(DIRECTORY_SEPARATOR.'apps'.DIRECTORY_SEPARATOR, $apps) : $apps).DIRECTORY_SEPARATOR)
         .$filename.$suffix;
     }

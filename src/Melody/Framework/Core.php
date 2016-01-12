@@ -17,6 +17,9 @@ class Core
         define('DEV_ENV', $dev);
         define('PROD_ENV', !$dev);
 
+        $autoloader = new Autoloader();
+        $autoloader->registerAutoload();
+
         if($dev)
         {
             @Tools::rrmdir(ROOT.DIRECTORY_SEPARATOR.'private'.DIRECTORY_SEPARATOR.'cache');

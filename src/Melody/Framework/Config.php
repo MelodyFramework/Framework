@@ -109,7 +109,7 @@ class Config
                 foreach ($appspath as $currentpath)
                 {
                     $app_config = array();
-                    $path = ROOT.DIRECTORY_SEPARATOR.'private'.DIRECTORY_SEPARATOR.'www'.$currentpath.DIRECTORY_SEPARATOR.'config';
+                    $path = ROOT.DIRECTORY_SEPARATOR.'app'.$currentpath.DIRECTORY_SEPARATOR.'config';
 
                     $configfiles = is_dir($path) ? Tools::file_get_contents_loop($path) : array();
                     foreach ($configfiles as $name => $content)
