@@ -2,7 +2,7 @@
   "www" :
   {
     "path": "/",
-    "action": "redirect",
+    "action": "none",
     "recursive" : true
   }
 }
